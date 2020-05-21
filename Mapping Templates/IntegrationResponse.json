@@ -1,0 +1,10 @@
+{
+    "deviceID": "$input.path('$.Item.deviceID.S')",
+    "location": "$input.path('$.Item.location.S')",
+    "precipitation": "$input.path('$.Item.precipitation.N')",
+    "timestamp": "$input.path('$.Item.timestamp.S')",
+    "visibility": "$input.path('$.Item.visibility.N')",
+    "humidity": "$input.path('$.Item.humidity.N')",
+    "wind": "$input.path('$.Item.wind.N')",
+    "temperature": "$input.path('$.Item.temperature.N')"
+}

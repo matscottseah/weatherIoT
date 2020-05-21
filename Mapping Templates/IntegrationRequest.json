@@ -1,0 +1,8 @@
+{
+    "TableName": "weather",
+    "Key": {
+        "deviceID": {
+            "S": "$input.params('deviceID')"
+        }
+    }
+}
